@@ -12,3 +12,5 @@ const square = (num) => {
 }
 
 const square = num => num * num;//con el return implicito
+
+//https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Functions/Arrow_functions
