@@ -1,0 +1,12 @@
+{
+  "name": "curse_ecmascript",
+  "version": "1.0.0",
+  "description": "EcmaScript versions class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Donovan Rojas <rojasdrm03@gmail.com",
+  "license": "ISC"
+}
