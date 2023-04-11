@@ -11,4 +11,16 @@ let user = {userName: 'Oscar', age: 34};
 let {userName, age} = user;
 console.log(userName, age);
 
+//spread operator
+let person = {
+    name:'oscar',
+    age: 28,
+};
+let country = 'MX';
+
+let data = {...person, country};//la propagacion la hacemos gracias al recurso ...
+let data2 = {id: 1, ...person, country};
+console.log(data);
+console.log(data2);
+
 
