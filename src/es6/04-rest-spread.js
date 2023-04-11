@@ -33,3 +33,31 @@ function sum(num, ...values) {
 
 sum(1, 1, 2, 3);
 
+//ejercicio clase 9
+
+export function solution(
+    json1 = {
+      name: 'Mr. Michi',
+      food: 'Pescado',
+    },
+    json2 = {
+      age: 12,
+      color: 'Blanco',
+    }
+  ) {
+    let solucion = {...json1, ...json2};
+    return solucion;
+  }
+
+
+  export function solution2(json1, json2) {
+    json1 = json1 || { name: "Mr. Michi", food: "Pescado" };
+    json2 = json2 || { age: 12, color: "Blanco" };
+  
+    return { ...json1, ...json2 }
+  }
+
+
+
+
+
