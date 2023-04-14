@@ -26,3 +26,18 @@ console.log(nuevoObjeto.next().value);
 console.log(nuevoObjeto.next().value);
 console.log(nuevoObjeto.next().value);
 console.log(nuevoObjeto.next().value);
+
+
+//ejercicio
+
+function* getId() {
+    let michiId = 1
+    while (true) {
+      yield michiId++
+    }
+  }
+  
+  const michiId = getId()
+  console.log(michiId.next().value);
+  console.log(michiId.next().value);
+  console.log(michiId.next().value);
