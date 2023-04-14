@@ -8,5 +8,6 @@
   },
   "keywords": [],
   "author": "Donovan Rojas <rojasdrm03@gmail.com",
-  "license": "ISC"
+  "license": "ISC",
+  "type": "module"
 }
