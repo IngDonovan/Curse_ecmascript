@@ -9,5 +9,8 @@
   "keywords": [],
   "author": "Donovan Rojas <rojasdrm03@gmail.com",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "node-fetch": "^3.3.1"
+  }
 }
