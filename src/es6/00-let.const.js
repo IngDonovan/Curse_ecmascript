@@ -22,3 +22,4 @@ const fruits = () => {
 }
 
 fruits();// ReferenceError: fruit2 is not defined
+

@@ -10,7 +10,7 @@ console.log(epicPhrase2);
 //multi-line strings
 let lorem = 'esto es un string \n ' + 'esto es otra linea';
 
-//multilinea example
+//inea example
 let lorem2 = `Esta es una frase epica
  la continuación de esa frase epica.
  `;
